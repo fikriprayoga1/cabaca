@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <!--1-->
+    <ImageView
+        android:id="@+id/imageView_item_book_1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <!--2-->
+    <TextView
+        android:id="@+id/textView_item_book_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:lines="1"
+        android:text="@string/a5"
+        android:textColor="@color/primary_text"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView_item_book_1"
+        app:layout_constraintTop_toTopOf="@+id/imageView_item_book_1" />
+
+    <!--3-->
+    <TextView
+        android:id="@+id/textView_item_book_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:lines="1"
+        android:text="@string/a7"
+        android:textColor="@color/secondary_text"
+        android:textSize="8pt"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_item_book_1"
+        app:layout_constraintStart_toEndOf="@+id/imageView_item_book_1"
+        app:layout_constraintTop_toTopOf="@+id/imageView_item_book_1" />
+
+    <!--4-->
+    <RatingBar
+        android:id="@+id/ratingBar_item_book_4"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_item_book_1"
+        app:layout_constraintStart_toEndOf="@+id/imageView_item_book_1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".view.DetailBookFragment">
+
+    <!--1-->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout_detail_book_fragment_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--1_1-->
+        <ImageView
+            android:id="@+id/imageView_detail_book_fragment_1_1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/colorPrimary"
+            android:contentDescription="@string/a15"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!--1_2-->
+        <Button
+            android:id="@+id/button_detail_book_fragment_1_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="@string/a3"
+            android:textColor="@color/icons"
+            android:textSize="8pt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView_detail_book_fragment_1_1" />
+
+
+        <!--1_3-->
+        <TextView
+            android:id="@+id/textView_detail_book_fragment_1_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:lines="1"
+            android:text="@string/a4"
+            android:textSize="8pt"
+            app:layout_constraintEnd_toStartOf="@+id/textView_detail_book_fragment_1_4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_detail_book_fragment_1_2" />
+
+        <!--1_4-->
+        <TextView
+            android:id="@+id/textView_detail_book_fragment_1_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:gravity="end"
+            android:lines="1"
+            android:text="@string/a5"
+            android:textSize="8pt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView_detail_book_fragment_1_3"
+            app:layout_constraintTop_toBottomOf="@+id/button_detail_book_fragment_1_2" />
+
+        <!--1_5-->
+        <TextView
+            android:id="@+id/textView_detail_book_fragment_1_5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:lines="1"
+            android:text="@string/a6"
+            android:textSize="8pt"
+            app:layout_constraintEnd_toStartOf="@+id/textView_detail_book_fragment_1_6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_detail_book_fragment_1_3" />
+
+        <!--1_6-->
+        <TextView
+            android:id="@+id/textView_detail_book_fragment_1_6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="end"
+            android:lines="1"
+            android:text="@string/a7"
+            android:textSize="8pt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView_detail_book_fragment_1_5"
+            app:layout_constraintTop_toBottomOf="@+id/textView_detail_book_fragment_1_4" />
+
+        <!--1_7-->
+        <TextView
+            android:id="@+id/textView_detail_book_fragment_1_7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:lines="1"
+            android:text="@string/a8"
+            android:textSize="8pt"
+            app:layout_constraintEnd_toStartOf="@+id/textView_detail_book_fragment_1_8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_detail_book_fragment_1_5" />
+
+        <!--1_8-->
+        <TextView
+            android:id="@+id/textView_detail_book_fragment_1_8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="end"
+            android:lines="1"
+            android:text="@string/a9"
+            android:textSize="8pt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView_detail_book_fragment_1_7"
+            app:layout_constraintTop_toBottomOf="@+id/textView_detail_book_fragment_1_6" />
+
+        <!--1_9-->
+        <TextView
+            android:id="@+id/textView_detail_book_fragment_1_9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:lines="1"
+            android:text="@string/a10"
+            android:textSize="8pt"
+            app:layout_constraintEnd_toStartOf="@+id/textView_detail_book_fragment_1_10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_detail_book_fragment_1_7" />
+
+        <!--1_10-->
+        <TextView
+            android:id="@+id/textView_detail_book_fragment_1_10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="end"
+            android:lines="1"
+            android:text="@string/a11"
+            android:textSize="8pt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView_detail_book_fragment_1_9"
+            app:layout_constraintTop_toBottomOf="@+id/textView_detail_book_fragment_1_8" />
+
+        <!--1_11-->
+        <TextView
+            android:id="@+id/textView_detail_book_fragment_1_11"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:lines="1"
+            android:text="@string/a12"
+            android:textSize="8pt"
+            app:layout_constraintEnd_toStartOf="@+id/ratingBar_detail_book_fragment_1_12"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_detail_book_fragment_1_9" />
+
+        <!--1_12-->
+        <RatingBar
+            android:id="@+id/ratingBar_detail_book_fragment_1_12"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView_detail_book_fragment_1_11"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView_detail_book_fragment_1_11"
+            app:layout_constraintTop_toTopOf="@+id/textView_detail_book_fragment_1_11" />
+
+        <!--1_13-->
+        <TextView
+            android:id="@+id/textView_detail_book_fragment_1_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="@string/a13"
+            android:textSize="9pt"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ratingBar_detail_book_fragment_1_12" />
+
+        <!--1_14-->
+        <com.codesgood.views.JustifiedTextView
+            android:id="@+id/justifiedTextView_detail_book_fragment_1_14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/a14"
+            android:textSize="8pt"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_detail_book_fragment_1_13" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

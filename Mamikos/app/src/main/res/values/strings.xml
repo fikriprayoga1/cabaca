@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Mamikos</string>
+
+    <string name="a1">Cabaca</string>
+    <string name="a2">mamikos_gif_icon</string>
+    <string name="a3">Baca Sekarang</string>
+    <string name="a4">Judul</string>
+    <string name="a5">Cerita Mamikos</string>
+    <string name="a6">Penulis</string>
+    <string name="a7">Fikri Prayoga</string>
+    <string name="a8">Kategori</string>
+    <string name="a9">Biografi</string>
+    <string name="a10">Jumlah Pembaca</string>
+    <string name="a11">11.9K</string>
+    <string name="a12">Rating</string>
+    <string name="a13">Sinopsis</string>
+    <string name="a14">Lorem ipsum adjkaj asdasd asdas dasd asda das da sd asd asd as das da sd as d asfasdfg dsa
+        gf sdag asd g asdg asd g asd gds FA SD F dsf  asF SA f sad F ads f DSFadfsFs df  </string>
+    <string name="a15">book_cover</string>
+    <string name="a16">Nama</string>
+    <string name="a17">Email</string>
+    <string name="a18">fikriprayoga007@gmail.com</string>
+    <string name="a19">Nomor Handphone</string>
+    <string name="a20">085265391800</string>
+    <string name="a21">Tanggal Lahir</string>
+    <string name="a22">22 November 1990</string>
+    <string name="a23">Deskripsi</string>
+    <string name="a24">fikriprayogaXXX</string>
+    <string name="a25">1019 Followers</string>
+    <string name="a26">Romance</string>
+    <string name="a27">Genre</string>
+    <string name="a28">Buku</string>
+    <string name="a29">Penulis</string>
+    <string name="a30">Home</string>
+</resources>

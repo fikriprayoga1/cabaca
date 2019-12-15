@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_bottomnavigation_manu_1"
+        android:title="@string/a27"
+        android:icon="@drawable/ic_genre"/>
+
+    <item
+        android:id="@+id/item_bottomnavigation_manu_2"
+        android:title="@string/a28"
+        android:icon="@drawable/ic_books"/>
+
+    <item
+        android:id="@+id/item_bottomnavigation_manu_3"
+        android:title="@string/a29"
+        android:icon="@drawable/ic_writer"/>
+</menu>
